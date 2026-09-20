@@ -194,6 +194,36 @@ The current version focuses on the fundamental RAG pipeline:
 - Production deployment
 - Monitoring and observability
 
+
+
+## Application Screenshots
+
+### Application Interface
+
+![Application Interface](screenshots/interface.png)
+
+Streamlit-based interface for interacting with the employee handbook and asking questions about company policies.
+
+### RAG Question Answering
+
+![RAG Question Answering](screenshots/rag-working.png)
+
+The application retrieves the relevant handbook section and generates a grounded answer using Gemini.
+
+### Conversational RAG
+
+![Conversational RAG](screenshots/conversational-rag.png)
+
+The application maintains conversation context to understand and answer follow-up questions.
+
+### Out-of-Scope Question Handling
+
+![Out-of-Scope Question Handling](screenshots/out-of-scope.png)
+
+The application rejects questions when relevant information cannot be found in the employee handbook instead of generating an unrelated answer.
+
+
+
 ## License
 
 This project is currently provided for educational and portfolio purposes.
