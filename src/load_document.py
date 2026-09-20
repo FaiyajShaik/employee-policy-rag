@@ -4,7 +4,8 @@ from pathlib import Path
 # Find the main project folder.
 PROJECT_FOLDER = Path(__file__).resolve().parent.parent
 
-# Build the exact path to our source document.
+
+# Build the exact path to the source document.
 DOCUMENT_PATH = PROJECT_FOLDER / "data" / "rag_source_employee_handbook.txt"
 
 

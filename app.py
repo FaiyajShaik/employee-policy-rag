@@ -110,9 +110,15 @@ def load_collection():
         path=str(DATABASE_PATH)
     )
 
-    return client.get_collection(
-        name=COLLECTION_NAME
-    )
+    try:
+        return client.get_collection(
+            name=COLLECTION_NAME
+        )
+
+    except Exception:
+        from src.index_document import build_index
+
+        return build_index()
 
 
 # ============================================================
@@ -122,21 +128,31 @@ def load_collection():
 @st.cache_resource
 def load_gemini_client():
 
-    # Load .env from the project folder
+    # Load .env for local development.
     load_dotenv(
         PROJECT_FOLDER / ".env"
     )
 
+    # First try the local environment variable.
     api_key = os.getenv(
         "GEMINI_API_KEY"
     )
+
+    # If it is not available, try Streamlit Secrets.
+    if not api_key:
+
+        try:
+            api_key = st.secrets["GEMINI_API_KEY"]
+
+        except Exception:
+            api_key = None
 
     if not api_key:
 
         raise ValueError(
             "GEMINI_API_KEY was not found. "
-            "Make sure your .env file contains "
-            "GEMINI_API_KEY=your_key"
+            "Set it in your local .env file "
+            "or Streamlit Cloud Secrets."
         )
 
     return genai.Client(
