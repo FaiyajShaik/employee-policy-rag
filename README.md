@@ -2,11 +2,23 @@
 
 A Retrieval-Augmented Generation application for answering employee policy questions using ChromaDB, Sentence Transformers, Gemini, and Streamlit.
 
+**🚀 Live Demo:** https://employee-policy-rag.streamlit.app/
+
 ## Overview
 
 Employee Policy RAG is a document-based question-answering application that allows users to ask questions about an employee handbook.
 
 The application retrieves relevant information from the handbook and uses Gemini to generate answers based on the retrieved content.
+
+
+## Live Demo
+
+Try the deployed application:
+
+**[🚀 Open Employee Policy RAG](https://employee-policy-rag.streamlit.app/)**
+
+The application allows users to ask questions about employee policies and receive answers grounded in the employee handbook.
+
 
 ## How It Works
 
@@ -35,6 +47,28 @@ Grounded Answer
        ↓
 Streamlit UI
 ```
+
+## Deployment Architecture
+
+The application is deployed using Streamlit Community Cloud.
+
+```text
+GitHub Repository
+       ↓
+Streamlit Community Cloud
+       ↓
+Streamlit Application
+       ↓
+Sentence Transformers
+       ↓
+ChromaDB
+       ↓
+Gemini API
+       ↓
+Grounded Response
+
+The Gemini API key is stored securely using Streamlit Secrets rather than being committed to the repository.
+
 
 ## Features
 
