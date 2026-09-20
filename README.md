@@ -66,8 +66,10 @@ ChromaDB
 Gemini API
        ↓
 Grounded Response
+```
 
 The Gemini API key is stored securely using Streamlit Secrets rather than being committed to the repository.
+
 
 
 ## Features
