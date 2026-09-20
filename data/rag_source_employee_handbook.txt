@@ -1,0 +1,29 @@
+NORTHSTAR ANALYTICS — EMPLOYEE HANDBOOK EXCERPT
+Version 1.0 | January 2026
+
+1. PURPOSE
+Northstar Analytics provides data products for retail businesses. This handbook explains selected workplace policies for full-time employees.
+
+2. WORKING HOURS
+Core collaboration hours are Monday through Friday, 10:00 AM to 4:00 PM in the employee's local time zone. Full-time employees are expected to work 40 hours per week. Teams may agree on flexible schedules with their manager when core collaboration hours are covered.
+
+3. REMOTE WORK
+Eligible full-time employees may work remotely up to three days per week. Employees must agree on their remote-work schedule with their manager and remain reachable during core collaboration hours. New employees become eligible after completing 30 calendar days of employment.
+
+4. PAID TIME OFF
+Full-time employees receive 24 paid time off (PTO) days in each calendar year. Up to 6 unused PTO days may be carried into the next calendar year. Any remaining unused PTO above 6 days expires on December 31. PTO requests for five or more consecutive workdays should be submitted at least 14 days before the first requested day.
+
+5. SICK LEAVE
+Employees receive 10 paid sick-leave days each calendar year. Sick leave is separate from PTO and does not reduce an employee's PTO balance. A medical certificate may be requested for an absence lasting more than three consecutive workdays.
+
+6. PROFESSIONAL DEVELOPMENT
+Each full-time employee can claim up to USD 1,200 per calendar year for approved professional-development courses, books, or conferences. The employee must obtain written manager approval before making a purchase. Expense claims must be submitted within 30 days after the event or purchase.
+
+7. EQUIPMENT
+Northstar provides a laptop and one external monitor to each full-time employee. Employees working remotely more than two days per week may request a company-approved ergonomic chair, subject to manager approval.
+
+8. INFORMATION SECURITY
+Employees must use multi-factor authentication for company systems and must not share passwords. Customer data may be accessed only through approved company tools. Suspected security incidents must be reported to security@northstar.example within one hour of discovery.
+
+9. QUESTIONS ABOUT THIS HANDBOOK
+For policy clarification, contact the People Operations team through the internal help portal.
